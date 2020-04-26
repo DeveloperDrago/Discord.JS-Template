@@ -1,7 +1,7 @@
 const{ prefix } = require("../config.json")
 
 module.exports = (client, message) => {
-    // Ignore all bots
+    // Ignore all  other bots
     if (message.author.bot) return;
   
     // Ignore messages not starting with the prefix (in config.json)
