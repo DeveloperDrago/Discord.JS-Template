@@ -1,6 +1,5 @@
-const{ prefix } = require("../config.json")
-
 module.exports = (client, message) => {
+	const prefix = process.env.PREFIX
     // Ignore all  other bots
     if (message.author.bot) return;
   
