@@ -1,2 +1,4 @@
-TOKEN=
-PREFIX=
+{
+    "token": "",
+    "prefix": ""
+}
